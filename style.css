@@ -14,14 +14,40 @@ body {
     margin: 0;
 }
 
-
 .top-container {
 	text-align: right;
 }
 .container-data{
 	display: inline-block;
+	text-align:left;
+	height: 55px;
+	
 }
 
+.container-data div{
+	display:inline-block;
+	vertical-align: middle;
+	}
+
+.container.data a{
+	display: inline-block;
+}
+.container-data button {
+	background: #0077C5;
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 35px;
+	position:relative;
+	bottom:17px;
+	border: none;
+	border-radius:8px;
+	float:right;
+	
+	}
+
+.container-data button span{
+	color: white;
+}
  .banner img {
 display: block;
 margin-left: 50%;
