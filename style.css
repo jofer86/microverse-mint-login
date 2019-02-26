@@ -2,9 +2,32 @@
 	box-sizing: border-box;
 }	
 
+/* coloring items >>>>>>>>>>>>>>>> */
+
+body {
+    background-color: rgba(255,255,255,.50);
+}
+
+/* coloring items ================ */
+
+body {
+    margin: 0;
+}
+
+
 .top-container {
 	text-align: right;
 }
 .container-data{
 	display: inline-block;
 }
+
+ .banner img {
+display: block;
+margin-left: 50%;
+margin-right: 50%;
+} 
+
+/* .banner a {
+    background: url("https://img.icons8.com/color/48/000000/hand-with-pen.png");
+} */
