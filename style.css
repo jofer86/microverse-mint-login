@@ -5,7 +5,7 @@
 /* coloring items >>>>>>>>>>>>>>>> */
 
 body {
-    background-color: rgba(255,255,255,.50);
+    background-color:lightgrey;
 }
 
 /* coloring items ================ */
@@ -45,11 +45,6 @@ body {
 	margin-top: 20px;
 	margin-bottom:20px;
 }
-
-
-
-
-
 
 .container-data div{
 	display:inline-block;
@@ -98,13 +93,32 @@ margin-right: 50%;
 	padding-left: 0;
 }
 
+.link {
+	margin-left: 4px;
+}
+
+.link a {
+	color: black;
+	text-decoration: none;
+}
+
+.fas.fa-leaf {
+	color: #189eaa;
+}
+
+.fas.fa-book {
+	color:green;
+}
+
+.fa-check-circle{
+	color: red;
+}
 
 /* set the border of the main panel >>>>>>>>*/
 
 .login-container{
 	display: flex;
-	border: 1px solid black;
-	background: gray;
+	background: lightgray;
 	justify-content: center;
 	
 
@@ -115,9 +129,11 @@ margin-right: 50%;
 	background-color: white;
 	flex-direction: column;
 	width: 30%;
-	margin-top: 5%;
+	margin-top: 1%;
 	margin-bottom: 5%;
 	padding: 0;
+	border: 1px solid black;
+	border-radius: 3px;
 }
 /* set the border of the main panel ========*/
 .item {
