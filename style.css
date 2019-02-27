@@ -132,15 +132,16 @@ margin-right: 50%;
 }
 
 .form label {
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .form input {
 	margin-bottom: 15px;
 	width: 100%;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	border-radius: 3px;
+	border: 1px solid lightgray;
 }
 
 input:active {
@@ -155,6 +156,25 @@ input:active {
 
 .two input {
 	margin-bottom: 2px;
+}
+
+.three button {
+	width:100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #0077C5;
+	border-radius: 4px;
+	border: none;
+	margin-top: 10px;
+}
+
+.three i,
+.three span {
+	color: white;
+}
+
+.three span {
+	margin-left: 4px;
 }
 
 
