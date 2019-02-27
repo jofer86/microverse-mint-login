@@ -223,13 +223,15 @@ input:active {
 }
 
 .agreement a,
-.bottom-banner a {
+.bottom-banner a,
+.container-data a {
 	text-decoration: none;
 	color:lightseagreen;
 }
 
 .agreement a:hover,
-.bottom-banner a:hover {
+.bottom-banner a:hover,
+.container-data a:hover {
 	text-decoration: underline;
 }
 
