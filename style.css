@@ -94,6 +94,10 @@ margin-right: 50%;
 	justify-content: center;
 }
 
+.links {
+	padding-left: 0;
+}
+
 
 /* set the border of the main panel >>>>>>>>*/
 
@@ -212,6 +216,42 @@ input:active {
 	justify-content: center;
 	}
 
+
+.main-footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.ftLink {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding-left: 0;
+}
+
+.ftLink li{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.ftLink a {
+	text-decoration: none;
+	color: gray;
+}
+
+.ftLink a:hover {
+	text-decoration: underline;
+}
+
+.ftCopy {
+	display: flex;
+	justify-content: center;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 20px;
+
+}
 
 
 
