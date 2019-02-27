@@ -177,7 +177,33 @@ input:active {
 	margin-left: 4px;
 }
 
+.agreement span{
+	font-weight: 300;
+	font-size: 15px;
+}
 
+.agreement {
+	text-align: center;
+	
+}
+
+.signup-footer {
+	margin-top: 17px;
+	margin-bottom: 17px;
+}
+
+.bottom-banner {
+	background: yellow;
+	font-weight: 300;
+	font-size: 10px;
+	margin:0;
+	width :384px;
+	display: flex;
+}
+
+.bottom-banner span {
+	justify-content: center;
+}
 
 /* .banner a {
     background: url("https://img.icons8.com/color/48/000000/hand-with-pen.png");
