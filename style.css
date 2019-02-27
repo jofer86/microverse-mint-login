@@ -88,6 +88,25 @@ margin-left: 50%;
 margin-right: 50%;
 } 
 
+
+.banner2 {
+	display:flex;
+	justify-content: center;
+}
+
+
+/* set the border of the main panel >>>>>>>>*/
+
+.login-container{
+	border: 1px solid black;
+	background: gray;
+}
+
+/* set the border of the main panel ========*/
+
+
+
+
 /* .banner a {
     background: url("https://img.icons8.com/color/48/000000/hand-with-pen.png");
 } */
