@@ -5,7 +5,8 @@
 /* coloring items >>>>>>>>>>>>>>>> */
 
 body {
-    background-color:lightgrey;
+	background-color:lightgrey;
+	font-family: Helvetica, sans-serif;
 }
 
 /* coloring items ================ */
@@ -147,6 +148,13 @@ margin-right: 50%;
 
 }
 
+.item span {
+	line-height: 40px;
+	font-size: 25px;
+	color: #333435;
+	padding-top: 10px;
+}
+
 
 .form {
 	border: none;
@@ -210,7 +218,19 @@ input:active {
 
 .agreement {
 	text-align: center;
+	color:#333435;
 	
+}
+
+.agreement a,
+.bottom-banner a {
+	text-decoration: none;
+	color:lightseagreen;
+}
+
+.agreement a:hover,
+.bottom-banner a:hover {
+	text-decoration: underline;
 }
 
 .signup-footer {
@@ -253,7 +273,7 @@ input:active {
 
 .ftLink a {
 	text-decoration: none;
-	color: gray;
+	color:#333435;
 }
 
 .ftLink a:hover {
@@ -266,7 +286,7 @@ input:active {
 	font-weight: 300;
 	text-align: center;
 	margin-bottom: 20px;
-
+	color:#333435;
 }
 
 
