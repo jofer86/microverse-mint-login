@@ -19,14 +19,21 @@ body {
 	 display: flex;
 }
 
+.flex-column {
+	flex-direction: column;
+}
+
+.center {
+	justify-content: center;
+}
+
 .top-container {
 	 
 	flex-direction: row-reverse;
 	margin-top: 10px;
 }
 .container-data{
-	 
-	flex-direction: column;
+
 	order: 2;
 }
 
@@ -46,7 +53,6 @@ body {
 }
 
 .header{
-	justify-content: center;
 	margin-top: 20px;
 	margin-bottom:20px;
 }
@@ -88,12 +94,6 @@ margin-left: 50%;
 margin-right: 50%;
 } 
 
-
-.banner2 {
-	display:flex;
-	justify-content: center;
-}
-
 .links {
 	padding-left: 0;
 }
@@ -106,7 +106,9 @@ margin-right: 50%;
 	color: black;
 	text-decoration: none;
 }
-
+.banner2 {
+	list-style: none;
+}
 .fas.fa-leaf {
 	color: #189eaa;
 }
@@ -122,17 +124,12 @@ margin-right: 50%;
 /* set the border of the main panel >>>>>>>>*/
 
 .login-container{
-	 
 	background: lightgray;
-	justify-content: center;
-	
-
 }
 
 .login-box {
 	 
 	background-color: white;
-	flex-direction: column;
 	width: 30%;
 	margin-top: 1%;
 	margin-bottom: 1%;
@@ -142,8 +139,6 @@ margin-right: 50%;
 }
 /* set the border of the main panel ========*/
 .item {
-	 
-	justify-content: center;
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 20px;
@@ -162,8 +157,6 @@ margin-right: 50%;
 
 .form {
 	border: none;
-	 
-	flex-direction: column;
 	flex-grow: 1;
 	margin-left: 4%;
 	margin-right: 4%;
@@ -197,9 +190,7 @@ input:active {
 }
 
 .button {
-	 
 	width:100%;
-	justify-content: center;
 }
 
 .three button {
@@ -262,19 +253,10 @@ input:active {
 	width :100%;
 	height:80px;
 	padding-top: 35px;
-	justify-content: center;
 	}
 
 
-.main-footer {
-	 
-	flex-direction: column;
-	justify-content: center;
-}
-
 .ftLink {
-	 
-	justify-content: center;
 	list-style: none;
 	padding-left: 0;
 }
@@ -294,17 +276,8 @@ input:active {
 }
 
 .ftCopy {
-	 
-	justify-content: center;
 	font-weight: 300;
 	text-align: center;
 	margin-bottom: 20px;
 	color:#333435;
 }
-
-
-
-
-/* .banner a {
-    background: url("https://img.icons8.com/color/48/000000/hand-with-pen.png");
-} */
