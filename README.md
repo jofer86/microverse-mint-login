@@ -1,7 +1,10 @@
 # microverse-mint-login 
-Mint Login Replica, made by Jorge Fernando Rincón Figueroa and Ahmed Mahfoudh, for the Microverse Full Time program.
+Mint Login Replica. 
+Made by 
+Jorge Fernando Rincón Figueroa and Ahmed Mahfoudh.
+For the Microverse Full Time program.
 
-Jorge Fernando Rincón Figueroa github: 
+Jorge Fernando Rincón Figueroa github: https://github.com/jofer86
 
 
-Ahmed Mahfoudh github:
+Ahmed Mahfoudh github: https://github.com/stratospherique
